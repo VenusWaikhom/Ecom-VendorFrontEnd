@@ -1,0 +1,93 @@
+.HomeMainWrapper {
+  border-radius: 12px;
+  width: 98.9%;
+  height: 97vh;
+  margin: 13px 20px 20px 0;
+  background: radial-gradient(
+    74.39% 74.39% at 47.71% 50.03%,
+    #4d50b6 3.07%,
+    #090770 100%
+  );
+}
+
+.HomeMiddleWrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+}
+
+.HomeTableWrapper {
+  margin-top: 0.9rem;
+}
+
+.HomeTableHead {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 0.6rem;
+  padding: 0 0.7rem;
+  align-items: center;
+  padding-bottom: 0.5rem;
+}
+
+.HomeTableViewMore {
+  font-size: 0.4rem;
+}
+
+.Table {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1fr;
+  font-size: 0.5rem;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo {
+  height: 1.6rem;
+  width: 1.6rem;
+  border-radius: 50%;
+  justify-self: center;
+}
+
+.TableItems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.items {
+  background-color: white;
+  margin: 0.2rem 0.2rem 0.5rem 0.2rem;
+  border-radius: 20px;
+  height: 1.5rem;
+  color: black;
+}
+
+.TableIconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+}
+
+.TableIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  color: white;
+}
+
+.View {
+  background-color: #6264cc;
+}
+
+.Delete {
+  background: #e88296;
+}

@@ -1,0 +1,161 @@
+.ProfileWrapper {
+  border-radius: 12px;
+  width: 98.9%;
+  height: 96vh;
+  margin: 20px 20px 20px 0;
+  background: white;
+}
+
+.ProfileMainWrapper {
+  margin: 0.5rem;
+  margin-top: 1.5rem;
+  font-size: 0.6rem;
+}
+
+.ProfileHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ProfileHeadBtnWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.ProfileHeader {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.ProfileHeadBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.1rem;
+  width: 6rem;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.ProfileCostomeViewBtn {
+  background: #ff6d03;
+}
+
+.ProfileEditBtn {
+  background: #171717;
+}
+
+.ProfileInfoWrapper {
+  margin: 1rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.ProfilePersonalDetailHeader {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.ProfilePresonalDetailsWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.ProfilePersonalDetailsInfoItems {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.3rem;
+}
+
+.ProfilePersonalDetailsInfoHeader {
+  font-size: 0.5rem;
+  font-weight: 600;
+}
+
+.ProfilePersonalDetailsInfo {
+  padding-left: 0.5rem;
+  height: 1.2rem;
+  width: 90%;
+  background: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.ProfilePersonalDetailsInfoItemsAddress {
+  grid-column: -1/1;
+}
+
+.ProfilePersonalDetailsInfoAddress {
+  height: 120%;
+  width: 97%;
+  line-height: 1.2em;
+  letter-spacing: 0.06em;
+}
+
+.ProfileBussinessDetailsHeader {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.EditProfileModel {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.EditProfileData {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.7rem;
+}
+
+.EditProfileDataAddress {
+  grid-column: -1/1;
+}
+
+.EditProfileDataInput {
+  background-color: grey;
+  height: 1.5rem;
+  width: 100%;
+}
+
+.EditProfileButtonsWrapper {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.EditProfileButtons {
+  height: 1.5rem;
+  width: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.EditProfileButtonsSubmit {
+  background-color: blue;
+}
+
+.EditProfileButtonsCancle {
+  background-color: black;
+}

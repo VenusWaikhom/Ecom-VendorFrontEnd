@@ -1,0 +1,482 @@
+.OrderTypeAndTableWrapper {
+  margin: 2rem 1rem 0 1rem;
+}
+
+.TypesOfOrder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Orders {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.5rem;
+  font-weight: 400;
+  height: 1.2rem;
+  width: 5rem;
+  border-radius: 50px;
+}
+
+.PassiveOrder {
+  background-color: black;
+  color: white;
+}
+
+.ActiveOrder {
+  background: linear-gradient(58deg, #0f0aa4 23.31%, #2992e3 117.48%);
+  color: white;
+}
+
+.OrderTableHeadeWrapper {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.OrderTableHeadLeft {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.OrderTableHeadRight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  height: 0.5rem;
+}
+
+.OrderTableDateInput {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.2rem;
+  width: 5rem;
+  color: black;
+  border: 1px solid grey;
+  border-radius: 30px;
+  padding-left: 1rem;
+  font-size: 0.6rem;
+}
+
+.OrderTableFilter {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.1rem;
+  font-size: 0.6rem;
+  border: 1px solid grey;
+  width: 5rem;
+  height: 1.2rem;
+  border-radius: 30px;
+}
+
+.OrdertableWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.OrderTableHeadWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.5fr 0.5fr 0.7fr 0.7fr 0.7fr;
+  align-items: center;
+  justify-content: space-between;
+  width: 99%;
+  margin-top: 1rem;
+}
+
+.OrderTableHeader {
+  font-size: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TableItemsWrapper {
+  height: 6rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  overflow: scroll;
+  gap: 0.1rem;
+}
+
+.TableOrderItems {
+  width: 99%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.5fr 0.5fr 0.7fr 0.7fr 0.7fr;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.5rem;
+  font-weight: 200;
+  border-radius: 12px;
+  border: 1px solid rgb(199, 199, 199);
+}
+
+.TableOrderItem {
+  height: 1.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1rem;
+  width: 1rem;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+}
+
+.Status {
+  width: 100%;
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  color: white;
+}
+
+.Pending {
+  background-color: #184d0b;
+}
+
+.Cancled {
+  background: #e91515;
+}
+
+.Dispatch {
+  background: linear-gradient(234.92deg, #46f2db -6.97%, #00a498 69.04%);
+}
+
+.Delivered {
+  background: linear-gradient(58deg, #0f0aa4 23.31%, #2992e3 117.48%);
+}
+
+.OrderTableItemActionBtns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: white;
+}
+
+.OrderTableItemActionViewBtn {
+  background: #000000;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.OrderTableItemActionEditBtn {
+  background: #1943d8;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.OrderModelWrapper {
+  margin: 1.5rem;
+  display: flex;
+  flex-direction: column;
+
+  gap: 1.5rem;
+}
+
+.OrderModelTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+}
+
+.Close {
+  cursor: pointer;
+}
+
+.OrderModelMiddle {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 0.7rem;
+}
+
+.OrderEditImageWrapper {
+  background-color: #000000;
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  align-self: center;
+  justify-self: center;
+}
+
+.RightItemDetails {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.EditOrderInfo {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.EditOrderIn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 1rem;
+  border: 1px solid grey;
+}
+
+.EditOrderHead {
+  width: 7rem;
+}
+
+.EditOrderCustomerNameHead {
+  width: 9rem;
+}
+
+.EditOrderId {
+  grid-column-start: 1;
+  grid-column-end: 7;
+}
+
+.EditOrderData {
+  grid-column: 8/-1;
+}
+
+.EditOrderName {
+  grid-column: 1/8;
+}
+
+.EditOrderColor {
+  grid-column: 9/-1;
+}
+
+.EditOrderStatus {
+  grid-column: 1/5;
+}
+
+.EditOrderCustomerName {
+  grid-column: 5/-1;
+}
+
+.EditOrderPrice {
+  grid-column: 1/5;
+}
+
+.EditOrderGST {
+  grid-column: 5/8;
+}
+
+.EditOrderTotal {
+  grid-column: 9/-1;
+}
+
+.EditOrderBtnsWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.EditOrderBtn {
+  height: 2rem;
+  width: 10rem;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+}
+
+.EditOrderViewDetails {
+  background: #101010;
+}
+
+.EditOrderUpdateDetails {
+  background: #1943d8;
+}
+
+.OrderViewLeftWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.OrderViewLeftStatus {
+  font-weight: 600;
+}
+
+.OrderViewImageWrapper {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 20px;
+  background-color: black;
+}
+
+.OrderViewRightItem {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.OrderViewInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.OrderViewInfoHead {
+  font-size: 0.6rem;
+}
+
+.OrderViewInfoBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f8f8;
+  border-radius: 20px;
+  width: 100%;
+  height: 1.5rem;
+  font-size: 0.7rem;
+}
+
+.OrderVeiwAddressInfo {
+  grid-column: 1/-1;
+}
+
+.OrderViewInfoBodyAddress {
+  height: 2rem;
+}
+
+.ViewOrderBtnsWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.ViewOrderBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  color: white;
+  height: 1.5rem;
+  width: 8rem;
+  font-size: 0.7rem;
+}
+
+.FilterHead {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+
+.FilterItemsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  cursor: pointer;
+  height: 11rem;
+}
+
+.Radio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 0.5rem;
+  width: 0.5rem;
+}
+
+.ActiveRadio {
+  background-color: #000000;
+}
+
+.FilterOption {
+  display: none;
+}
+
+.ActiveFilterOption {
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.Options {
+  margin: 0.4rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.5rem;
+  width: 6rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+  border-radius: 50px;
+  border: 2px solid black;
+}
+
+.Options:hover {
+  background-color: black;
+  color: white;
+}
+
+.OtherOption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.OtherOption:hover {
+  background-color: black;
+  color: white;
+}

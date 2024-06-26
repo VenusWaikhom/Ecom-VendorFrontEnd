@@ -1,0 +1,100 @@
+.CategoryProductHead {
+  margin: 1rem 1rem 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.2rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.CategoryProductTable {
+  margin: 0 1rem;
+}
+
+.CategoryProductTableHeader {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr 1.5fr 1fr 1fr 1fr 1fr 1.5fr;
+  font-size: 0.6rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.CategoryProductTableHead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CategoryProductItems {
+  overflow: scroll;
+  height: 10rem;
+}
+
+.CategoryProductItemWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr 1.5fr 1fr 1fr 1fr 1fr 1.5fr;
+  font-size: 0.6rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0.38rem 0;
+  height: 2rem;
+  border: 1px solid rgb(173, 170, 170);
+  border-radius: 12px;
+  box-shadow: 10px 5px 5px rgb(177, 175, 175);
+}
+
+.CategoryProductItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CategoryProductImages {
+  justify-self: center;
+  background-color: black;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+}
+
+.CategotyProductButtonsWrapper {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.CategoryProductButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.CategoryProductButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8rem;
+  height: 2rem;
+  border-radius: 20px;
+  color: white;
+}
+
+.CategoryProductButtonManage {
+  background-color: black;
+}
+
+.CategoryProductButtonAddNew {
+  background-color: #3c83e6;
+}
+
+.CategoryProductActionButtonWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}

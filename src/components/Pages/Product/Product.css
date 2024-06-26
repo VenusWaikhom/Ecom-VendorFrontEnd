@@ -1,0 +1,235 @@
+.ProductMainWrapper {
+  border-radius: 12px;
+  width: 98.9%;
+  height: 96vh;
+  margin: 20px 20px 20px 0;
+  background: white;
+}
+
+.HomeTopWrapper {
+  padding: 1.2rem 1rem 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ProductMiddleWrapper {
+  padding-top: 0.5rem;
+}
+
+.ProductMiddleHead {
+  font-size: 0.9rem;
+  display: flex;
+  margin: 0.5rem 1rem;
+  justify-content: space-between;
+}
+
+.ProductItems {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 2rem;
+  width: 100%;
+  overflow: scroll;
+  gap: 0.95rem;
+}
+
+.BottomProductItemHead {
+  display: flex;
+  margin: 1.2rem 1rem 1.2rem 1rem;
+  justify-content: space-between;
+}
+
+.BottomProductItemheader {
+  font-size: 0.8rem;
+}
+
+.ProductItem {
+  cursor: pointer;
+  background-color: red;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+}
+
+.ProductMiddleIcons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.ProductMiddleIcon {
+  font-size: 0.5rem;
+  font-weight: 300;
+  height: 1rem;
+  width: 5rem;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ProductFilterIcon {
+  box-shadow: 5px 5px 5px 5px rgb(117, 110, 110);
+  border: 1px solid white;
+}
+
+.ProductAddIcon {
+  color: white;
+  background-color: #3c83e6;
+}
+
+.ProductFilterIcon:active {
+  box-shadow: none;
+  border: 1px solid rgb(117, 110, 110);
+}
+
+.ProductTable {
+  color: black;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.ProductTableIcon {
+  color: black;
+}
+
+.EditMain {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 2rem;
+  margin: 0 2rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.EditImageWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.Image {
+  background-color: grey;
+  width: 100%;
+  height: 8rem;
+  border-radius: 20px;
+}
+
+.NewProductImage {
+  cursor: pointer;
+}
+
+.UploadImages {
+  font-size: 0.8rem;
+}
+
+.EditInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.EditInfoNameItem {
+  grid-column: -1/1;
+}
+
+.EditInfoHEad {
+  font-size: 0.8rem;
+}
+
+.EditInfoHeadInput {
+  width: 80%;
+  font-size: 0.8rem;
+  height: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.QuickEditColorPicker {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+
+.colorDemo {
+  height: 1rem;
+  width: 1rem;
+  background-color: #000000;
+  border-radius: 50%;
+}
+
+.UpdateDetailsButtonWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  margin: 0 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.UpdateDetailsButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #0e37c8;
+  width: 55%;
+  height: 2rem;
+  border-radius: 20px;
+}
+
+.DeleteItemConfirmWrapper {
+  width: 100%;
+  margin-top: 12rem;
+  margin-left: 0.5rem;
+}
+
+.DeleteItemConfirmHead {
+  position: relative;
+}
+
+.DeleteItemConfirmHeader {
+  font-size: 1.6rem;
+  width: 20rem;
+}
+
+.DeleteItemConfirmimage {
+  position: absolute;
+  left: 17rem;
+  top: 0.5rem;
+}
+
+.DeleteItemConfirmPara {
+  margin-top: 1rem;
+  font-size: 0.7rem;
+}
+
+.ButtonWrapper {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.deleteConfirmbutton {
+  width: 8rem;
+  height: 2rem;
+  border-radius: 15px;
+  background-color: grey;
+}
+
+.ProductTableitems {
+  background-color: white;
+  margin: 0.2rem 0.2rem 0.5rem 0.2rem;
+  border-radius: 20px;
+  height: 1rem;
+  color: black;
+}

@@ -1,0 +1,561 @@
+.Coupons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 0.5rem;
+  gap: 0.5rem;
+  width: 98%;
+  overflow: hidden;
+}
+
+.Card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.middleBox {
+  position: relative;
+  height: 2.5rem;
+  padding: 0 1rem;
+  width: 4rem;
+  background: #2c199e;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  color: white;
+}
+
+.CouponCircle {
+  height: 0.7rem;
+  width: 0.7rem;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.CouponLeft {
+  position: absolute;
+  top: 35%;
+  left: -0.3rem;
+}
+
+.CouponRight {
+  position: absolute;
+  top: 35%;
+  right: -0.3rem;
+}
+
+.CardLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 13rem;
+  border-right: 2px dashed white;
+}
+
+.CardLeftWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.2rem;
+}
+
+.CouponHeader {
+  font-size: 0.3rem;
+  font-weight: 400;
+}
+
+.expDate {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 0.1rem;
+  font-weight: 400;
+}
+
+.CouponDescription {
+  font-size: 0.1rem;
+  font-weight: 300;
+  width: 93%;
+}
+
+.ApplyNowbtnWrapper {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  height: 0.5rem;
+  width: 2rem;
+  color: white;
+  background-color: #3c83e6;
+  cursor: pointer;
+  font-size: 0.28rem;
+  font-weight: 500;
+}
+
+.CardRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.CouponCuttOffData {
+  font-size: 0.5rem;
+  font-weight: 600;
+}
+
+.CouponCutOffWording {
+  font-size: 0.3rem;
+  font-weight: 500;
+}
+
+.CouponTableWrapper {
+  margin: 0.5rem 0.5rem 0 0.5rem;
+  font-size: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.CouponTableHead {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr 2fr 1.5fr 1.5fr 1.5fr;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4px;
+  width: 99%;
+}
+
+.CouponTableHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CouponTableBodyWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.05rem;
+  overflow: scroll;
+  height: 5rem;
+}
+
+.CouponTableBodyDataWrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr 2fr 1.5fr 1.5fr 1.5fr;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4px;
+  margin-top: 4px;
+  width: 99%;
+  box-shadow: 1px 1px 0.4em rgb(187, 185, 185), 1px 0 0.4em rgb(187, 185, 185);
+  border-radius: 12px;
+}
+
+.CouponTableBodyData {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.5rem;
+}
+
+.CouponTableBodyDataNoUser {
+  justify-self: center;
+  height: 1rem;
+  width: 1rem;
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.CouponTableBodyDataStatus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  height: 0.9rem;
+  width: 3.5rem;
+  color: white;
+  border-radius: 20px;
+}
+
+.CouponTableBodyDataStatusOngoing {
+  background: #02d764;
+}
+
+.CouponTableBodyDataStatusExpired {
+  background: #ff0000;
+}
+
+.CouponTableBodyDataStatusHold {
+  background: #ff8c05;
+}
+
+.AddCouponBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: #1943d8;
+  height: 1.2rem;
+  width: 5rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.5rem;
+}
+
+.AddCouponModalWrapper {
+  margin: 0.5rem;
+}
+
+.AddCouponModalHeader {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.1rem;
+}
+
+.AddCouponModalHead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.AddCouponInputItems {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.5rem;
+  font-size: 0.7rem;
+  margin: 0.5rem 0rem;
+}
+
+.AddCouponInputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.AddCouponInputElement {
+  background: #f0f0f0;
+  height: 1.5rem;
+  width: 90%;
+  border: none;
+  outline: none;
+}
+
+.AddCouponInputElement {
+  font-size: 0.7rem;
+}
+
+.AddCouponBtnWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.AddCouponColorWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+
+.AddCouponColor {
+  height: 1.3rem;
+  width: 1.3rem;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+.AddCouponColorBlue {
+  background: linear-gradient(58deg, #0f0aa4 23.31%, #2992e3 117.48%);
+}
+
+.AddCouponColorOrange {
+  background: linear-gradient(235.35deg, #ffbe4e 2.75%, #e35b00 79.04%);
+}
+
+.AddCouponColorRed {
+  background: linear-gradient(49.76deg, #cc0022 24.94%, #ff8db6 100.28%);
+}
+
+.AddCouponColorGreen {
+  background: linear-gradient(234.92deg, #46f2db -6.97%, #00a498 69.04%);
+}
+
+.AddCouponColorActive {
+  border: 2px solid black;
+}
+
+.EditCouponBodyWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.EditCouponBody {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 0.7rem;
+}
+
+.EditCouponBodyInput {
+  height: 1.5rem;
+  width: 89%;
+  background: #f0f0f0;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.CouponEditModalBtnWrapper {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.CouponEditModalBtn {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  width: 10rem;
+  font-size: 0.6rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.CouponEditModalBtnView {
+  background-color: black;
+}
+
+.CouponEditModalBtnUpdate {
+  background: #1943d8;
+}
+
+.CouponViewModalWrapper {
+  margin: 0.7rem;
+}
+
+.CouponViewModalHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.CouponViewModalHead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.CouponViewModalBodyWrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.CouponViewModalBodyRightWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 1.5rem;
+  gap: 0.5rem;
+}
+
+.CouponViewCard {
+  transform: rotate(-90deg);
+}
+
+.CouponLeftStatusWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+}
+
+.CouponViewStatusDot {
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 50%;
+}
+
+.CouponViewStatusGreen {
+  background: #02d764;
+}
+
+.CouponViewStatusRed {
+  background: #ff0000;
+}
+
+.CouponViewStatusOrange {
+  background: #ff8c05;
+}
+
+.CouponLeftStatusWording {
+  font-size: 0.7rem;
+  font-weight: 400;
+}
+
+.CouponViewModalBodyLeftWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  font-size: 0.7rem;
+  gap: 0.5rem;
+}
+
+.CouponViewModalBodyLeftData {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.3rem;
+}
+
+.CouponViewModalBodyLeftDataCode {
+  grid-column: 1/6;
+}
+
+.CouponViewModalBodyLeftDataValue {
+  grid-column: 6/11;
+}
+
+.CouponViewModalBodyLeftDataColor {
+  grid-column: 11/13;
+}
+
+.CouponViewModalBodyLeftDataCategory {
+  grid-column: 1/7;
+}
+
+.CouponViewModalBodyLeftDataSubCategory {
+  grid-column: 7/13;
+}
+
+.CouponViewModalBodyLeftDataStartDate {
+  grid-column: 1/7;
+}
+
+.CouponViewModalBodyLeftDataExpire {
+  grid-column: 7/13;
+}
+
+.CouponViewModalBodyLeftDataDisType {
+  grid-column: 1/5;
+}
+
+.CouponViewModalBodyLeftDataUser {
+  grid-column: 5/9;
+}
+
+.CouponViewModalBodyLeftDataStatus {
+  grid-column: 9/13;
+}
+
+.CouponViewModalBodyLeftHead {
+  font-size: 0.6rem;
+}
+
+.CouponViewModalBodyLeftHeadInfo {
+  height: 1.5rem;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 1rem;
+  background: #fbfbfb;
+  font-size: 0.7rem;
+}
+
+.CouponViewColorDetails {
+  height: 1.3rem;
+  margin-left: 0.4rem;
+  width: 1.3rem;
+  border-radius: 50%;
+}
+
+.CouponViewColorDetailsRed {
+  background: linear-gradient(49.76deg, #cc0022 24.94%, #ff8db6 100.28%);
+}
+
+.CouponViewColorDetailsBlue {
+  background: linear-gradient(58deg, #0f0aa4 23.31%, #2992e3 117.48%);
+}
+
+.CouponViewColorDetailsGreen {
+  background: linear-gradient(234.92deg, #46f2db -6.97%, #00a498 69.04%);
+}
+
+.CouponViewColorDetailsOrange {
+  background: linear-gradient(235.35deg, #ffbe4e 2.75%, #e35b00 79.04%);
+}
+
+.CouponViewModalBtnWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 0.7rem;
+}
+
+.CouponViewModalBtn {
+  height: 1.5rem;
+  width: 10rem;
+  color: white;
+  font-size: 0.7rem;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.CouponViewModalBtnDelete {
+  background: #101010;
+}
+
+.CouponViewModalBtnUpdate {
+  background: #1943d8;
+}
+
+.CouponViewModalStatusInfo {
+  height: 1.3rem;
+  width: 80%;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.CouponViewModalStatusInfoOngoing {
+  background: #02d764;
+}
+
+.CouponViewModalStatusInfoHold {
+  background: #ff8c05;
+}
+
+.CouponViewModalStatusInfoExpire {
+  background: #ff0000;
+}

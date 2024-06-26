@@ -1,0 +1,102 @@
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
+  border-right: 0px solid #1e1e1e;
+}
+
+.ListItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e1e1e;
+  border-right: 0px;
+}
+
+.Itemhover:hover {
+  border-bottom: 2px solid white;
+}
+
+.ItemhoverActive {
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  font-weight: 700;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 73px;
+  height: 73px;
+  background: linear-gradient(58deg, #0f0aa4 23.31%, #2992e3 117.48%);
+  box-shadow: 0px 0.993377px 4.96689px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  margin: 0.6rem 0;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.ellipse {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 5px;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.ellipses {
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+}
+
+.ellipse1 {
+  background: linear-gradient(
+    55.02deg,
+    #ff859a -6.1%,
+    #fb7f96 9.64%,
+    #ea617f 25.9%,
+    #ff6e8b 59.71%,
+    #fc6180 67.47%,
+    #fa5a77 93.99%
+  );
+}
+
+.ellipse2 {
+  background: linear-gradient(
+    55.02deg,
+    #5acff9 -6.1%,
+    #38b1f4 9.64%,
+    #5bc3fc 25.9%,
+    #23a3ff 59.71%,
+    #2489d2 74.51%,
+    #2985c7 93.99%
+  );
+}
+
+.ellipse3 {
+  background: linear-gradient(
+    55.02deg,
+    #fdcc4b -6.1%,
+    #ffc64b 9.64%,
+    #ffa34c 25.9%,
+    #fea255 58.42%,
+    #f99952 76.77%,
+    #ff9856 93.99%
+  );
+}
+
+.ellipse4 {
+  background: linear-gradient(
+    55.02deg,
+    #57ecd9 -6.1%,
+    #53eadb 9.64%,
+    #2fddc6 25.9%,
+    #31dbc7 59.71%,
+    #35ded9 67.47%,
+    #85ddd5 93.99%
+  );
+}
